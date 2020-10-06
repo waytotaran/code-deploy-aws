@@ -2,7 +2,7 @@
 
 # Install jq and update awscli
 apt install jq -y
-apt install awscli
+apt install awscli -y
 
 # Get Instance ID and Region
 INSTANCE_ID=`curl http://169.254.169.254/latest/meta-data/instance-id 2>/dev/null`
