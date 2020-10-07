@@ -17,3 +17,4 @@ if [ "$INSTANCE_ID" = "$LEADERINSTANCE" ]; then
   # your custom code goes here which should run only in one instance
   echo $DEPLOYMENT_ID >> /tmp/tempfile.txt
 fi
+  echo $INSTANCE_ID >> /tmp/temp1file.txt
