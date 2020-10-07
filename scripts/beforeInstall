@@ -1,4 +1,5 @@
 #!/bin/bash
 cp -r /var/www/html /var/www/code-deploy
 cd /var/www/code-deploy
+cp tt aa
 echo "beforeInstall" >> /tmp/log.txt
