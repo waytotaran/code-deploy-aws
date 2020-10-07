@@ -19,6 +19,5 @@ if [ "$INSTANCE_ID" = "$LEADERINSTANCE" ]; then
 fi
   echo "INSTANCE_ID ${INSTANCE_ID} \n" >> /tmp/temp1file.txt
   echo "DEPLOYMENT_ID ${DEPLOYMENT_ID} \n" >> /tmp/tempfile.txt
-  cp lb.txt lb2.txt
 
 
