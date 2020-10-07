@@ -16,8 +16,9 @@ LEADERINSTANCE='i-0c3fde389cfea8de7'
 if [ "$INSTANCE_ID" = "$LEADERINSTANCE" ]; then
   # your custom code goes here which should run only in one instance
     echo "DEPLOYMENT_ID ${DEPLOYMENT_ID} \n" >> /tmp/tempfile.txt
+    cp lb.txt lb2.txt
 fi
-  echo "INSTANCE_ID ${INSTANCE_ID} \n" >> /tmp/temp1file.txt
+   echo "INSTANCE_ID ${INSTANCE_ID} \n" >> /tmp/temp1file.txt
   echo "DEPLOYMENT_ID ${DEPLOYMENT_ID} \n" >> /tmp/tempfile.txt
 
 
